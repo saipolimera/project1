@@ -83,6 +83,10 @@ p {
     color: #959094;
 }
 
+li{
+    color: #959094;
+
+}
 p.lead {
     color: #e38cb7;
     margin-bottom: 2rem;
@@ -254,12 +258,30 @@ header {
     margin: 0 auto;
 }
 
+.lessPaddingForCard{
+    padding-bottom: 80px;
+}
+
 .img-holder {
     height: 0;
     padding-bottom: 33%;
     overflow: hidden;
+    height: 450px;
 }
 
+.row1{
+  height: 175px;
+  margin-bottom: 10px;
+}
+
+.row2{
+    height: 175px;
+    margin-bottom: 10px;
+  }
+  .row3{
+    height: 200px;
+    margin-bottom: 10px;
+  }
 @media (max-width:1200px) {
     .img-holder {
         padding-bottom: 50%;
